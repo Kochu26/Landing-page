@@ -6,7 +6,7 @@ export function NavBar() {
 			<div className="container-fluid">
 				<div>
 					<a className="navbar-brand" href="#">
-						<strong>Start Bootstrap</strong>
+						<strong>Start Travel</strong>
 					</a>
 				</div>
 				<div>

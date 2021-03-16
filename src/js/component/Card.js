@@ -3,33 +3,33 @@ import PropTypes from "prop-types";
 
 export function RellenarCartas() {
 	let Carta1 = {
-		titulo: "Carta 1",
+		titulo: "Black Hole",
 		foto:
-			"https://ep01.epimg.net/elpais/imagenes/2019/10/30/album/1572424649_614672_1572453030_noticia_normal.jpg",
+			"https://nuevodia.com.ve/wp-content/uploads/2020/05/agujero-negro.jpg",
 		contenido:
-			"Una carta es un medio de comunicación escrita por un emisor (remitente) y enviado a un receptor (destinatario). Normalmente, el nombre y la dirección del destinatario aparecen en el frente del sobre, el nombre y la dirección del remitente aparecen en el reverso del mismo (en el caso de sobres manuscritos) o en el anverso (en los sobres preimpresos)."
+			"A black hole is a region of spacetime where gravity is so strong that nothing—no particles or even electromagnetic radiation such as light—can escape from it. The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole."
 	};
 
 	let Carta2 = {
-		titulo: "Carta 2",
+		titulo: "Super Nova",
 		foto:
-			"https://cdn.shopify.com/s/files/1/0229/0839/files/Busqueda_de_imagenes_3_large.jpg?v=1578328497",
+			"https://www.unilad.co.uk/wp-content/uploads/2020/08/supernova-extinction.jpg",
 		contenido:
-			"Una carta es un medio de comunicación escrita por un emisor (remitente) y enviado a un receptor (destinatario). Normalmente, el nombre y la dirección del destinatario aparecen en el frente del sobre, el nombre y la dirección del remitente aparecen en el reverso del mismo (en el caso de sobres manuscritos) o en el anverso (en los sobres preimpresos)."
+			"A supernova (/ˌsuːpərˈnoʊvə/ plural: supernovae or supernovas, abbreviations: SN and SNe) is a powerful and luminous stellar explosion. This transient astronomical event occurs during the last evolutionary stages of a massive star or when a white dwarf is triggered into runaway nuclear fusion."
 	};
 	let Carta3 = {
-		titulo: "Carta 3",
+		titulo: "Solar System",
 		foto:
-			"https://www.astrobitacora.com/wp-content/uploads/2016/09/crab-nebula-esa-1024.jpg",
+			"https://susitv.net/wp-content/uploads/2020/06/how-many-planets-are-there-in-the-solar-system-2-1024x639.jpg",
 		contenido:
-			"Una carta es un medio de comunicación escrita por un emisor (remitente) y enviado a un receptor (destinatario). Normalmente, el nombre y la dirección del destinatario aparecen en el frente del sobre, el nombre y la dirección del remitente aparecen en el reverso del mismo (en el caso de sobres manuscritos) o en el anverso (en los sobres preimpresos)."
+			"The Solar System is the gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly. Of the objects that orbit the Sun directly, the largest are the eight planets, with the remainder being smaller objects, the dwarf planets and small Solar System bodies."
 	};
 	let Carta4 = {
-		titulo: "Carta 4",
+		titulo: "Exo Planets",
 		foto:
-			"https://ep01.epimg.net/elpais/imagenes/2019/10/30/album/1572424649_614672_1572453030_noticia_normal.jpg",
+			"https://solarearthusa.com/wp-content/uploads/2019/11/maxresdefault_live-25.jpg",
 		contenido:
-			"Una carta es un medio de comunicación escrita por un emisor (remitente) y enviado a un receptor (destinatario). Normalmente, el nombre y la dirección del destinatario aparecen en el frente del sobre, el nombre y la dirección del remitente aparecen en el reverso del mismo (en el caso de sobres manuscritos) o en el anverso (en los sobres preimpresos)."
+			"An exoplanet or extrasolar planet is a planet outside the Solar System. The first possible evidence of an exoplanet was noted in 1917, but was not recognized as such. The first confirmation of detection occurred in 1992. This was followed by the confirmation of a different planet, originally detected in 1988. "
 	};
 	let ArrCartas = [Carta1, Carta2, Carta3, Carta4];
 
@@ -57,7 +57,7 @@ export function Cartas(props) {
 				style={texto}>
 				<h5 className="card-title">{props.titulo}</h5>
 				<p className="card-text">{props.contenido}</p>
-				<a href="#" className="btn btn-primary ">
+				<a href="#" className="btn btn-dark ">
 					Find out more!
 				</a>
 			</div>

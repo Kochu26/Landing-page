@@ -15,13 +15,19 @@ import { Pie } from "./Footer";
 //create your first component
 export function Home() {
 	return (
-		<div>
+		<div style={fondo}>
 			<NavBar />
 			<Cuerpo />
-			<div className="d-flex justify-content-around flex-wrap m-2">
+			<div
+				className="d-flex justify-content-around flex-wrap m-2"
+				style={fondo}>
 				<RellenarCartas />
 			</div>
 			<Pie />
 		</div>
 	);
 }
+
+const fondo = {
+	backgroundColor: " black"
+};
